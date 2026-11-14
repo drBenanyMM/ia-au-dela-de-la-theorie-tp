@@ -1,0 +1,16 @@
+# Environnement Anaconda / Miniconda
+# Création   : conda env create -f environment.yml
+# Activation : conda activate ia-techforge
+name: ia-techforge
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - scipy>=1.10
+  - pandas>=2.0
+  - matplotlib>=3.7
+  - scikit-learn>=1.3
+  - ipywidgets>=8.0
+  - jupyterlab>=4.0
+  - notebook>=7.0

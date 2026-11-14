@@ -1,0 +1,29 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+.conda/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Données téléchargées par scikit-learn
+scikit_learn_data/
+
+# Éditeurs et systèmes
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers personnels / temporaires
+*.log
+*.tmp
+.env
